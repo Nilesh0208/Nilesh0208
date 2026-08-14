@@ -1,6 +1,6 @@
 # Hi there, I'm Nilesh Thorat 👋
 
-### 🚀 Data Engineer | Spark • Kafka • Databricks • GCP • Fabric
+### 🚀 Data Engineer | Spark • Kafka • Databricks • GCP • Fabric • FastAPI • Agentic AI
 
 I am a **Data Engineer with 4+ years of experience** building scalable batch and near-real-time data platforms. I specialize in Lakehouse architecture, streaming ingestion, incremental processing, workflow orchestration, and cloud performance optimization.
 
