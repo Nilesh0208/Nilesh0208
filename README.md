@@ -215,6 +215,55 @@ The repository is continuously expanded to demonstrate **consistent engineering 
 
 ---
 
+## 🛡️ Data Quality Remediation Agent
+
+### [View Project →](https://github.com/Nilesh0208/data-engineering-problems/tree/main/projects/mini_project_001_data_quality_remediation_agent)
+
+**Tech Stack:**
+`Python` • `Pandas` • `SQL` • `pytest` • `CSV`
+
+A practical Data Engineering mini-project focused on **automated data-quality validation, safe remediation, invalid-record quarantine, deduplication, and auditability**.
+
+### Key Capabilities
+
+* Loads raw customer order data from source files.
+* Applies configurable data-quality validation rules.
+* Automatically remediates records when corrections can be safely performed.
+* Separates unrecoverable records into a dedicated **quarantine layer**.
+* Performs duplicate detection and deduplication.
+* Produces cleaned datasets for downstream consumption.
+* Generates detailed audit logs containing:
+
+  * violated rule
+  * remediation action
+  * rejection reason
+  * processing timestamps
+* Includes SQL templates for downstream reporting.
+* Uses `pytest` to validate quality rules and remediation behavior.
+* Follows a modular project structure separating configuration, loading, validation, remediation, auditing, and orchestration.
+
+### Pipeline Flow
+
+```text
+Raw Order Data
+      ↓
+Data Loading
+      ↓
+Quality Validation
+      ↓
+Safe Remediation
+      ↓
+Deduplication
+      ↓
+      ├── Valid → Clean Output
+      │
+      └── Invalid → Quarantine
+                     ↓
+                  Audit Log
+```
+
+This project demonstrates how Data Engineering pipelines can **detect, repair, isolate, and audit bad data while preserving traceability and protecting downstream datasets**.
+
 ## 🗄️ SQL Database Loader
 
 ### [View Repository →](https://github.com/Nilesh0208/SQL-database-Loader)
